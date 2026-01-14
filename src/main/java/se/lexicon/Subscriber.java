@@ -1,12 +1,6 @@
 package se.lexicon;
 
-enum Plan {
-    FREE,
-    BASIC,
-    PRO
-}
-
-class Subscriber {
+public class Subscriber {
     private int id;
     private String email;
     private Plan plan;
