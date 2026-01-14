@@ -14,6 +14,7 @@ public class Subscriber {
         this.active = active;
         this.monthsRemaining = monthsRemaining;
     }
+
     public int getId() {
         return id;
     }
@@ -53,5 +54,4 @@ public class Subscriber {
     public void setMonthsRemaining(int monthsRemaining) {
         this.monthsRemaining = monthsRemaining;
     }
-
 }

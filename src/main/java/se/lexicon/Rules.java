@@ -2,7 +2,7 @@ package se.lexicon;
 
 public class Rules {
 
-    public static SubscriberFilter activeSubscriber = subscriber -> subscriber.isActive(); // Active Subscriber
+    public static SubscriberFilter activeSubscriber = Subscriber::isActive; // Active Subscriber
     public static SubscriberFilter expiringSubscription = subscriber -> subscriber.getMonthsRemaining() <= 1; // Expiring Subscription
     public static SubscriberFilter activeAndExpiringSubscriber = subscriber ->
             subscriber.isActive() && subscriber.getMonthsRemaining() <= 1; // Active and Expiring Subscriber
