@@ -55,25 +55,4 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
-target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
-target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
-target/surefire-reports/2026-01-14T13-13-33_685-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-15-22_473-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-15-25_316-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-15-39_597-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-15-42_129-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-15-58_025-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-16-00_407-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-17-44_086-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-17-46_499-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-21-42_643-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-21-44_914-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-26-50_091-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-26-52_368-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-27-12_781-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-27-35_756-jvmRun1.dump
-target/surefire-reports/2026-01-14T13-27-38_087-jvmRun1.dump
-target/surefire-reports/se.lexicon.SubscriberProcessorTest.txt
-target/surefire-reports/TEST-se.lexicon.SubscriberProcessorTest.xml
+target/
