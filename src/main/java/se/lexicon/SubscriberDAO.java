@@ -1,15 +1,24 @@
 package se.lexicon;
 
-class SubscriberDAO {
-//     +save(subscriber: Subscriber): void
-        // save to ...
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
-//     +findAll(): List~Subscriber~
-        //    returns all subscribers
+public class SubscriberDAO {
 
-//     +findById(id: int): Optional~Subscriber~
-        //    returns subscriber by id
+    private final List<Subscriber> allSubscribers = new ArrayList<>();
 
+        public void save(Subscriber subscriber) {
+            allSubscribers.add(subscriber);
+        }
+    
+        public List<Subscriber> findAll() {
+            return new ArrayList<>(allSubscribers);
+        }
 
-
+        public Optional<Subscriber> findById(int id) {
+            return allSubscribers.stream()
+                    .filter(subscriber -> subscriber.getId() == id)
+                    .findFirst();
+        }
 }

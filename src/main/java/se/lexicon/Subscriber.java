@@ -14,18 +14,6 @@ public class Subscriber {
         this.active = active;
         this.monthsRemaining = monthsRemaining;
     }
-
-    /*
-    ID = RANDOM
-    EMAIL = placeholder@example.com
-    PLAN = ENUM
-    ACTIVE = RANDOM
-    MONTHS = RANDOM */
-
-    // SET RANDOMNS + placeholder email
-
-    // calculate months remaining
-
     public int getId() {
         return id;
     }
